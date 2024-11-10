@@ -11,7 +11,7 @@
         <div class="navigation">
             <a href="#home">HOME</a>
             <a href="#about">ABOUT</a>
-            <a href="#contact">SIGN UP</a>
+            <a href="signUp.html">SIGN UP</a>
         </div>
         <div class="lol">
             <div class="image">
@@ -30,18 +30,18 @@
     <div class="legacy">
         <p class="leap">LEAP THROUGH TIME.</p>
         <div class="log">
-            <div class="login-box">
+            <div class="login-box" id="target">
                 <p>Login</p>
-                <form>
+                <form method="POST">
                   <div class="user-box">
-                    <input required="" name="" type="text">
+                    <input required="" name="email" type="text">
                     <label>Email</label>
                   </div>
                   <div class="user-box">
-                    <input required="" name="" type="password">
+                    <input required="" name="password" type="password">
                     <label>Password</label>
                   </div>
-                  <a href="#">
+                  <a href="">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -49,12 +49,14 @@
                     Submit
                   </a>
                 </form>
-                <p>Don't have an account? <a href="" class="a2">Sign up!</a></p>
+                <p>Don't have an account? <a href="signUp.html" class="a2">Sign up!</a></p>
             </div>
         </div>
+
         
 
     </div>
     
 </body>
+
 </html>
